@@ -315,29 +315,36 @@ void vApplicationDaemonTaskStartupHook( void )
 		configPRINTF( ("ERROR: Can't print  OptigaTrustM Public Key Certificate 1 (IFX provisioned)\r\n") );
 	}
 
-	/** Initialize the AWS Libraries system. */
-	if( SYSTEM_Init() == pdPASS )
-	{
-		LED_xStatus( WIFI, START );
-		/* Connect to network */
-		if( ucNetworkInitialize() == pdPASS )
-		{
-			LED_xStatus( WIFI, SUCCESS );
-			configPRINTF( ("Connected to the network\r\n") );
-			/* Sensors Task Start inside */
-			vMqttTaskStart();
+	configPRINTF( ("INFO: Only sensors are enabled, cloud software and Wi-Fi has been disabled\r\n") );
 
-		}
-		else
-		{
-			LED_xStatus( WIFI, FAILED );
-			vFullReset( APP_ERROR_NETWORK_COMM_LIB_INIT );
-		}
-	}
-	else
-	{
-		vFullReset( APP_ERROR_SYSTEM_INIT );
-	}
+	/** Only start the sensor task to collect data **/
+	vSensorsTaskStart();
+
+//	/** The remaining software is disabled as it is not required currently ** //
+//	/** Initialize the AWS Libraries system. */
+//	if( SYSTEM_Init() == pdPASS )
+//	{
+//		LED_xStatus( WIFI, START );
+//		/* Connect to network */
+//		if( ucNetworkInitialize() )
+//		{
+//	    	vSensorsTaskStart();
+//			LED_xStatus( WIFI, SUCCESS );
+//			configPRINTF( ("Connected to the network\r\n") );
+//			// Sensors Task Start inside
+//			//vMqttTaskStart();
+//
+//		}
+//		else
+//		{
+//			LED_xStatus( WIFI, FAILED );
+//			vFullReset( APP_ERROR_NETWORK_COMM_LIB_INIT );
+//		}
+//	}
+//	else
+//	{
+//		vFullReset( APP_ERROR_SYSTEM_INIT );
+//	}
 
 #endif
 
