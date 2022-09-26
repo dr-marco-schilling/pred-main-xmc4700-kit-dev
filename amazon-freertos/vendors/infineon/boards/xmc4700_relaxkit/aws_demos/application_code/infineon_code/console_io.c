@@ -31,7 +31,8 @@
 
 #define CONSOLE_IO_UART_BAUDRATE 			115200
 
-#define CONSOLE_IO_DEBUG_USB_HEADER 		1
+/** Re-route the UART to the mBus header pins **/
+// #define CONSOLE_IO_DEBUG_USB_HEADER 		1
 
 #if defined( CONSOLE_IO_X2_HEADER )
 /* UART log to X2 pin header */
