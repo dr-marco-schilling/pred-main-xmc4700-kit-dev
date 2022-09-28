@@ -46,9 +46,11 @@ static InfineonSensorsData_t xSensorsData;
 
 /** Handle for the Sensors Task */
 TaskHandle_t xSENSORSTaskHandle = NULL;
+TaskHandle_t xSENSORSRawTaskHandle = NULL;
 
 
 static void prvSensorsTask( void *pvParameters );
+static void prvSensorsTaskRaw( void *pvParameters );
 
 
 typedef enum {
@@ -59,6 +61,7 @@ typedef enum {
 
 
 static SensorsProcessStatus_t xSensorsProcess( InfineonSensorsData_t *pxSensorsData );
+static SensorsProcessStatus_t xSensorsRawProcess( InfineonSensorsData_t *pxSensorsData );
 
 
 void vSensorsTaskStart( void )
@@ -69,6 +72,17 @@ void vSensorsTaskStart( void )
 		xTaskCreate( prvSensorsTask, "SENSORSTask", sensorstaskSTACK_SIZE, NULL, sensorstaskPRIORITY, &xSENSORSTaskHandle );
 		configPRINTF( ("SENSORS TASK CREATE...\r\n") );
 
+	}
+
+}
+
+void vSensorsTaskStartRaw( void )
+{
+
+	if( xSENSORSRawTaskHandle == NULL )
+	{
+		xTaskCreate( prvSensorsTaskRaw, "SENSORSTask", sensorstaskSTACK_SIZE, NULL, sensorstaskPRIORITY, &xSENSORSRawTaskHandle );
+		configPRINTF( ("SENSORS TASK RAW CREATE...\r\n") );
 	}
 
 }
@@ -88,6 +102,24 @@ void vSensorsTaskDelete( void )
 	{
         vTaskDelete( xSENSORSTaskHandle );
         xSENSORSTaskHandle = NULL;
+    }
+
+}
+
+void vSensorsTaskDeleteRaw( void )
+{
+    configPRINTF( ("Deleting the raw Sensors task") );
+
+    if( xSENSORSRawTaskHandle != NULL )
+	{
+        vTaskSuspend( xSENSORSRawTaskHandle );
+    }
+
+    /* Delete the task */
+    if( xSENSORSRawTaskHandle != NULL )
+	{
+        vTaskDelete( xSENSORSRawTaskHandle );
+        xSENSORSRawTaskHandle = NULL;
     }
 
 }
@@ -136,6 +168,43 @@ void prvSensorsTask( void *pvParameters )
 
 			xProcessCompleteFlag = PROCESS_IN_PROGRESS;
 		}
+
+		vTaskDelay( 1 );
+    }
+
+}
+
+
+void prvSensorsTaskRaw( void *pvParameters )
+{
+	SensorsProcessStatus_t xProcessCompleteFlag = PROCESS_IN_PROGRESS;
+
+	/* Restore serial interfaces buses, needed to stabilize */
+	vSerialInterfaceRestore();
+
+	/* Sensors power-on */
+	vSensorsOn();
+	vTaskDelay( 100 );
+
+	/* SPI Extender initialization */
+    bool LTC4332_bInitStatus = LTC4332_bInit();
+	if( LTC4332_bInitStatus != true )
+	{
+		configPRINTF( ("ERROR: LTC4332_bInit\r\n") );
+	}
+
+	/* Sensors initialization */
+	vSensorsPreInit();
+	vSensorsInit();
+
+	/* Delay is necessary to stabilize the sensors after power-on and initialization */
+    vTaskDelay( 1000 );
+
+    for( ;; )
+	{
+    	/* Reading data from sensors and processing */
+    	xProcessCompleteFlag = xSensorsRawProcess( &xSensorsData );
+		xProcessCompleteFlag = PROCESS_IN_PROGRESS;
 
 		vTaskDelay( 1 );
     }
@@ -191,6 +260,61 @@ static SensorsProcessStatus_t xSensorsProcess( InfineonSensorsData_t *pxSensorsD
 			{
 				configPRINTF( ("\r\n") );
 			}
+
+			if( lReadError == 0 )
+			{
+				/* Checking availability of sensors before sending data */
+				vSensorsAvailability( pxSensorsData );
+				xRet = PROCESS_COMPLETED;
+			}
+
+    	}
+
+    	/* Reset and start the time counter */
+        ulTick = 0;
+        prevStamp = xTaskGetTickCount();
+
+    }
+
+    return xRet;
+}
+
+/* Reading data in time and post-processing */
+static SensorsProcessStatus_t xSensorsRawProcess( InfineonSensorsData_t *pxSensorsData )
+{
+	SensorsProcessStatus_t xRet = PROCESS_IN_PROGRESS;
+	int32_t lReadError = 0;
+
+	static uint32_t ulTick = 0;
+	static TickType_t prevStamp = 0;
+
+	/* Reading data from sensors directly per tick */
+	if( ulTick < SENSORS_VECTOR_LEN )
+	{
+		vSensorsRead( pxSensorsData, ulTick );
+		ulTick++;
+	}
+
+	/* Perform post-processing after the vector is filled and the period time has passed */
+    if( ( xTaskGetTickCount() - prevStamp ) > SEND_PERIOD_MS )
+    {
+    	if( prevStamp != 0 )
+    	{
+    		/* Read data from the buffer non-tick sensors - microphone */
+    		vNonTickSensorsRead( pxSensorsData );
+
+    		/* Check for the number of errors in read loop */
+    		lReadError = lSensorsReadErrorCheck( ulTick );
+
+			// Write the time-stamp
+    		uint32_t ticks = xTaskGetTickCount();
+    		uint8_t wBuf[4];
+    		uint32_t len = sizeof(wBuf);
+    		memcpy(&ticks, wBuf, len);
+
+			_writemBus(0, wBuf, len);
+
+			// Directly access now the sensor data here and write it accordingly
 
 			if( lReadError == 0 )
 			{

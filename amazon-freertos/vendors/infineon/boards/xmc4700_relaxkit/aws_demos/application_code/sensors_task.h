@@ -46,8 +46,10 @@
 
 /** @brief Starts the Sensors task */
 void vSensorsTaskStart( void );
+void vSensorsTaskStartRaw( void );
+
 /** @brief Deletes the Sensors task */
 void vSensorsTaskDelete( void );
-
+void vSensorsTaskDeleteRaw( void );
 
 #endif /* SENSORS_TASK_H */
