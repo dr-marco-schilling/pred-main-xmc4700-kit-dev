@@ -42,6 +42,7 @@
 static InfineonSensorsMessage_t xSensorsMessage;
 /* Current sensor statistics and raw value buffers */
 static InfineonSensorsData_t xSensorsData;
+static InfineonSensorsData_t xSensorsDataRaw;
 
 
 /** Handle for the Sensors Task */
@@ -203,7 +204,7 @@ void prvSensorsTaskRaw( void *pvParameters )
     for( ;; )
 	{
     	/* Reading data from sensors and processing */
-    	xProcessCompleteFlag = xSensorsRawProcess( &xSensorsData );
+    	xProcessCompleteFlag = xSensorsRawProcess( &xSensorsDataRaw );
 		xProcessCompleteFlag = PROCESS_IN_PROGRESS;
 
 		vTaskDelay( 1 );

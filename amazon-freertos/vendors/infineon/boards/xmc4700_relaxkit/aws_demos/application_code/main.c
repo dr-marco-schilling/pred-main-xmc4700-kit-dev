@@ -324,7 +324,6 @@ void vApplicationDaemonTaskStartupHook( void )
 	vSensorsTaskStartRaw();
 
 
-
 //	/** The remaining software is disabled as it is not required currently ** //
 //	/** Initialize the AWS Libraries system. */
 //	if( SYSTEM_Init() == pdPASS )
