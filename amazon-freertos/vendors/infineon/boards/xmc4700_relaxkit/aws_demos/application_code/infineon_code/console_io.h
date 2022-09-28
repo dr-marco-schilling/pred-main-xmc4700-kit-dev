@@ -38,6 +38,9 @@ void CONSOLE_IO_vInit( void );
 int _write( int fd, const void *buf, size_t count );
 int _read( int fd, void *buf, size_t count );
 
+int _writemBus( int fd, const void *buf, size_t count );
+int _readmBus( int fd, void *buf, size_t count );
+
 
 #ifdef __cplusplus
 }

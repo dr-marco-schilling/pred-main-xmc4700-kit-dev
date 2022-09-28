@@ -30,9 +30,11 @@
 
 
 #define CONSOLE_IO_UART_BAUDRATE 			115200
+#define CONSOLE_IO_UART_BAUDRATE_MB			115200
 
 /** Re-route the UART to the mBus header pins **/
-// #define CONSOLE_IO_DEBUG_USB_HEADER 		1
+#define CONSOLE_IO_DEBUG_USB_HEADER 		1
+#define CONSOLE_IO_DEBUG_MBUS		 		1
 
 #if defined( CONSOLE_IO_X2_HEADER )
 /* UART log to X2 pin header */
@@ -48,19 +50,27 @@
 	#define CONSOLE_IO_UART_TX_PIN_AF 		P1_5_AF_U0C0_DOUT0
 	#define CONSOLE_IO_UART_RX_PIN 			P1_4
 	#define CONSOLE_IO_UART_INPUT 			USIC0_C0_DX0_P1_4
-#else
-/* mBus header pins UART */
-	#define CONSOLE_IO_UART_CH				XMC_UART1_CH0
-	#define CONSOLE_IO_UART_TX_PIN			P2_14
-	#define CONSOLE_IO_UART_TX_PIN_AF		P2_14_AF_U1C0_DOUT0
-	#define CONSOLE_IO_UART_RX_PIN			P2_15
-	#define CONSOLE_IO_UART_INPUT			USIC1_C0_DX0_P2_15
 #endif
 
+#if defined( CONSOLE_IO_DEBUG_MBUS )
+/* mBus header pins UART */
+	#define CONSOLE_IO_UART_CH_MB			XMC_UART1_CH0
+	#define CONSOLE_IO_UART_TX_PIN_MB		P2_14
+	#define CONSOLE_IO_UART_TX_PIN_AF_MB    P2_14_AF_U1C0_DOUT0
+	#define CONSOLE_IO_UART_RX_PIN_MB		P2_15
+	#define CONSOLE_IO_UART_INPUT_MB		USIC1_C0_DX0_P2_15
+#endif
 
 static const XMC_UART_CH_CONFIG_t uart_config =
 {
 	.baudrate = CONSOLE_IO_UART_BAUDRATE,
+	.data_bits = 8,
+	.stop_bits = 1,
+};
+
+static const XMC_UART_CH_CONFIG_t uart_config_mb =
+{
+	.baudrate = CONSOLE_IO_UART_BAUDRATE_MB,
 	.data_bits = 8,
 	.stop_bits = 1,
 };
@@ -95,6 +105,38 @@ int _read( int fd, void *buf, size_t count )
 	return char_cnt;
 }
 
+#if defined( CONSOLE_IO_DEBUG_MBUS )
+
+int _writemBus( int fd, const void *buf, size_t count )
+{
+	( void )fd;
+
+	for( int i = 0; i < count; ++i )
+	{
+	XMC_UART_CH_Transmit( CONSOLE_IO_UART_CH_MB, *(const uint8_t *)buf );
+	buf++;
+	}
+	return count;
+}
+
+
+int _readmBus( int fd, void *buf, size_t count )
+{
+	int char_cnt = 0;
+	(void)fd;
+
+	while( ( XMC_UART_CH_GetStatusFlag( CONSOLE_IO_UART_CH_MB ) & ( XMC_UART_CH_STATUS_FLAG_ALTERNATIVE_RECEIVE_INDICATION | XMC_UART_CH_STATUS_FLAG_RECEIVE_INDICATION ) ) == 0 );
+
+	char_cnt++;
+	*(uint8_t *)buf = XMC_UART_CH_GetReceivedData( CONSOLE_IO_UART_CH_MB );
+
+	XMC_UART_CH_ClearStatusFlag( CONSOLE_IO_UART_CH_MB, XMC_UART_CH_STATUS_FLAG_ALTERNATIVE_RECEIVE_INDICATION |
+												XMC_UART_CH_STATUS_FLAG_RECEIVE_INDICATION );
+
+	return char_cnt;
+}
+
+#endif
 
 void _putchar( char c )
 {
@@ -112,4 +154,18 @@ void CONSOLE_IO_vInit( void )
 	XMC_UART_CH_Start (CONSOLE_IO_UART_CH );
 
 	XMC_GPIO_SetMode( CONSOLE_IO_UART_TX_PIN, XMC_GPIO_MODE_OUTPUT_PUSH_PULL | CONSOLE_IO_UART_TX_PIN_AF );
+
+	#if defined( CONSOLE_IO_DEBUG_MBUS )
+
+	XMC_UART_CH_Init( CONSOLE_IO_UART_CH_MB, &uart_config_mb );
+
+	XMC_GPIO_SetMode( CONSOLE_IO_UART_RX_PIN_MB, XMC_GPIO_MODE_INPUT_PULL_UP );
+	XMC_UART_CH_SetInputSource( CONSOLE_IO_UART_CH_MB, XMC_UART_CH_INPUT_RXD, CONSOLE_IO_UART_INPUT_MB );
+
+	XMC_UART_CH_Start (CONSOLE_IO_UART_CH_MB );
+
+	XMC_GPIO_SetMode( CONSOLE_IO_UART_TX_PIN_MB, XMC_GPIO_MODE_OUTPUT_PUSH_PULL | CONSOLE_IO_UART_TX_PIN_AF_MB );
+
+	#endif
+
 }
