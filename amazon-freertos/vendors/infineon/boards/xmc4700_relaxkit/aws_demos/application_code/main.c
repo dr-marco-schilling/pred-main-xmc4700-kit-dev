@@ -318,7 +318,7 @@ void vApplicationDaemonTaskStartupHook( void )
 	configPRINTF( ("INFO: Only sensors are enabled, cloud software and Wi-Fi has been disabled\r\n") );
 
 	/** Only start the sensor task to collect data **/
-	// vSensorsTaskStart();
+	 //vSensorsTaskStart();
 
 	/** Start the raw sensors task **/
 	vSensorsTaskStartRaw();

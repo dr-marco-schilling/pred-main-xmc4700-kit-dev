@@ -44,6 +44,9 @@ static InfineonSensorsMessage_t xSensorsMessage;
 static InfineonSensorsData_t xSensorsData;
 static InfineonSensorsData_t xSensorsDataRaw;
 
+float32_t rawval32;
+uint16_t rawval;
+uint32_t tickcnt;
 
 /** Handle for the Sensors Task */
 TaskHandle_t xSENSORSTaskHandle = NULL;
@@ -309,13 +312,22 @@ static SensorsProcessStatus_t xSensorsRawProcess( InfineonSensorsData_t *pxSenso
 
 			// Write the time-stamp
     		uint32_t ticks = xTaskGetTickCount();
+    		tickcnt = ticks;
     		uint8_t wBuf[4];
     		uint32_t len = sizeof(wBuf);
-    		memcpy(&ticks, wBuf, len);
+    		memcpy(&wBuf, &tickcnt, len);
 
 			_writemBus(0, wBuf, len);
 
 			// Directly access now the sensor data here and write it accordingly
+			rawval = (uint16_t)(xSensorsDataRaw.fSensorsVector.vector[DPS368_TEMP_1][0]);
+    		uint8_t rBuf[2];
+    		len = sizeof(rBuf);
+    		memcpy(&rBuf, &rawval, len);
+
+    		_writemBus(0, rBuf, len);
+    		_writemBus(0, rBuf, len);
+
 
 			if( lReadError == 0 )
 			{

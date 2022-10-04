@@ -7,8 +7,8 @@
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.20/app/ADC_MEASUREMENT_ADV/3"/>
     <properties key="APP_NAME_ID" value="ADC_MEASUREMENT_ADV/3"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="243" height="40" x="2533">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="243" height="40" style="//@styles.0/@styles.35" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="205" height="40" x="2533">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="205" height="40" style="//@styles.0/@styles.35" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.7 //@connections.10"/>
     <children>
@@ -21,14 +21,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.20/app/ADC_MEASUREMENT_ADV/3"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="243" height="20" x="25" y="17" font="//@fonts.1" value="ADC_MEASUREMENT_ADV_3"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="205" height="20" x="25" y="17" font="//@fonts.1" value="ADC_MEASUREMENT_ADV_3"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/19"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/19"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="4920">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.22" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="4920">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.22" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -41,14 +41,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/19"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="I2C_INT2"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="I2C_INT2"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0"/>
     <properties key="APP_NAME_ID" value="CLOCK_XMC4/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="159" height="40" x="5722" y="350">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="159" height="40" style="//@styles.0/@styles.1" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="141" height="40" x="5722" y="350">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="141" height="40" style="//@styles.0/@styles.1" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.0 //@connections.3 //@connections.11 //@connections.12 //@connections.14 //@connections.16 //@connections.17 //@connections.20"/>
     <children>
@@ -61,14 +61,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.22/app/CLOCK_XMC4/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="159" height="20" x="25" y="17" font="//@fonts.1" value="CLOCK_XMC4_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="141" height="20" x="25" y="17" font="//@fonts.1" value="CLOCK_XMC4_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/20"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/20"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="166" height="40" x="4734">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="166" height="40" style="//@styles.0/@styles.23" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="149" height="40" x="4734">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="149" height="40" style="//@styles.0/@styles.23" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -81,14 +81,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/20"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="166" height="20" x="25" y="17" font="//@fonts.1" value="TLE4913_DATA_1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="149" height="20" x="25" y="17" font="//@fonts.1" value="TLE4913_DATA_1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/8"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/8"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="140" height="40" x="6587">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="140" height="40" style="//@styles.0/@styles.12" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="124" height="40" x="6587">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="124" height="40" style="//@styles.0/@styles.12" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -101,14 +101,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/8"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="140" height="20" x="25" y="17" font="//@fonts.1" value="DPS368_CS2"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="124" height="20" x="25" y="17" font="//@fonts.1" value="DPS368_CS2"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/21"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/21"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="182" height="40" x="4523">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="182" height="40" style="//@styles.0/@styles.24" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="162" height="40" x="4523">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="162" height="40" style="//@styles.0/@styles.24" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -121,14 +121,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/21"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="182" height="20" x="25" y="17" font="//@fonts.1" value="TLE49611K_DATA_1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="162" height="20" x="25" y="17" font="//@fonts.1" value="TLE49611K_DATA_1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.12/app/ANALOG_IO/1"/>
     <properties key="APP_NAME_ID" value="ANALOG_IO/1"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="148" height="40" x="512" y="350">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="148" height="40" style="//@styles.0/@styles.36" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="133" height="40" x="512" y="350">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="133" height="40" style="//@styles.0/@styles.36" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.8"/>
     <children>
@@ -141,14 +141,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.12/app/ANALOG_IO/1"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="148" height="20" x="25" y="17" font="//@fonts.1" value="ANALOG_IO_1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="133" height="20" x="25" y="17" font="//@fonts.1" value="ANALOG_IO_1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/2"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/2"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="40" x="7601">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="221" height="40" style="//@styles.0/@styles.6" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="185" height="40" x="7601">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="185" height="40" style="//@styles.0/@styles.6" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -161,14 +161,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/2"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="221" height="20" x="25" y="17" font="//@fonts.1" value="LED_YELLOWISH_GREEN"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="185" height="20" x="25" y="17" font="//@fonts.1" value="LED_YELLOWISH_GREEN"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.12/app/ANALOG_IO/2"/>
     <properties key="APP_NAME_ID" value="ANALOG_IO/2"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="148" height="40" x="344" y="350">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="148" height="40" style="//@styles.0/@styles.37" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="133" height="40" x="344" y="350">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="133" height="40" style="//@styles.0/@styles.37" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.9"/>
     <children>
@@ -181,14 +181,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.12/app/ANALOG_IO/2"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="148" height="20" x="25" y="17" font="//@fonts.1" value="ANALOG_IO_2"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="133" height="20" x="25" y="17" font="//@fonts.1" value="ANALOG_IO_2"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/22"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/22"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="182" height="40" x="4321">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="182" height="40" style="//@styles.0/@styles.25" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="162" height="40" x="4321">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="162" height="40" style="//@styles.0/@styles.25" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -201,14 +201,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/22"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="182" height="20" x="25" y="17" font="//@fonts.1" value="TLE49613K_DATA_1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="162" height="20" x="25" y="17" font="//@fonts.1" value="TLE49613K_DATA_1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.12/app/ANALOG_IO/3"/>
     <properties key="APP_NAME_ID" value="ANALOG_IO/3"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="148" height="40" x="154" y="350">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="148" height="40" style="//@styles.0/@styles.38" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="133" height="40" x="154" y="350">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="133" height="40" style="//@styles.0/@styles.38" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.10"/>
     <children>
@@ -221,14 +221,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.12/app/ANALOG_IO/3"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="148" height="20" x="25" y="17" font="//@fonts.1" value="ANALOG_IO_3"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="133" height="20" x="25" y="17" font="//@fonts.1" value="ANALOG_IO_3"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/9"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/9"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="140" height="40" x="6427">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="140" height="40" style="//@styles.0/@styles.13" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="124" height="40" x="6427">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="124" height="40" style="//@styles.0/@styles.13" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -241,14 +241,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/9"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="140" height="20" x="25" y="17" font="//@fonts.1" value="DPS368_CS3"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="124" height="20" x="25" y="17" font="//@fonts.1" value="DPS368_CS3"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/23"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/23"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="166" height="40" x="4141">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="166" height="40" style="//@styles.0/@styles.26" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="149" height="40" x="4141">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="149" height="40" style="//@styles.0/@styles.26" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -261,14 +261,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/23"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="166" height="20" x="25" y="17" font="//@fonts.1" value="TLE4964_DATA_1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="149" height="20" x="25" y="17" font="//@fonts.1" value="TLE4964_DATA_1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.1.14/app/GLOBAL_CCU4/0"/>
     <properties key="APP_NAME_ID" value="GLOBAL_CCU4/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="167" height="40" x="2177">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="167" height="40" style="//@styles.0/@styles.39" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="148" height="40" x="2177">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="148" height="40" style="//@styles.0/@styles.39" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.11"/>
     <children>
@@ -281,14 +281,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.1.14/app/GLOBAL_CCU4/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="167" height="20" x="25" y="17" font="//@fonts.1" value="GLOBAL_CCU4_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="148" height="20" x="25" y="17" font="//@fonts.1" value="GLOBAL_CCU4_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.2/app/PIN_INTERRUPT/0"/>
     <properties key="APP_NAME_ID" value="PIN_INTERRUPT/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="258" height="40" x="8424">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="258" height="40" style="//@styles.0/@styles.3" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="216" height="40" x="8424">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="216" height="40" style="//@styles.0/@styles.3" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.2"/>
     <children>
@@ -301,14 +301,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.2/app/PIN_INTERRUPT/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="258" height="20" x="25" y="17" font="//@fonts.1" value="ISM43340_RDY_PIN_INTERRUPT"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="216" height="20" x="25" y="17" font="//@fonts.1" value="ISM43340_RDY_PIN_INTERRUPT"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/10"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/10"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="6279">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.14" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="6279">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.14" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -321,14 +321,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/10"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="LTC_CS"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="LTC_CS"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/25"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/25"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="214" height="40" x="3907">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="214" height="40" style="//@styles.0/@styles.27" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="184" height="40" x="3907">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="184" height="40" style="//@styles.0/@styles.27" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -341,14 +341,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/25"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="214" height="20" x="25" y="17" font="//@fonts.1" value="TLI4966G_DIRECTION_Q1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="184" height="20" x="25" y="17" font="//@fonts.1" value="TLI4966G_DIRECTION_Q1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.20/app/CMSIS_DSP/0"/>
     <properties key="APP_NAME_ID" value="CMSIS_DSP/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="149" height="40" x="2364">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="149" height="40" style="//@styles.0/@styles.40" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="129" height="40" x="2364">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="129" height="40" style="//@styles.0/@styles.40" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -361,14 +361,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.20/app/CMSIS_DSP/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="149" height="20" x="25" y="17" font="//@fonts.1" value="CMSIS_DSP_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="129" height="20" x="25" y="17" font="//@fonts.1" value="CMSIS_DSP_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/3"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/3"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="147" height="40" x="7434">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="147" height="40" style="//@styles.0/@styles.7" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="129" height="40" x="7434">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="129" height="40" style="//@styles.0/@styles.7" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -381,14 +381,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/3"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="147" height="20" x="25" y="17" font="//@fonts.1" value="LED_YELLOW"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="129" height="20" x="25" y="17" font="//@fonts.1" value="LED_YELLOW"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/11"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/11"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="155" height="40" x="6104">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="155" height="40" style="//@styles.0/@styles.15" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="133" height="40" x="6104">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="133" height="40" style="//@styles.0/@styles.15" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -401,14 +401,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/11"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="155" height="20" x="25" y="17" font="//@fonts.1" value="mBUS1_RESET"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="133" height="20" x="25" y="17" font="//@fonts.1" value="mBUS1_RESET"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/27"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/27"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="5512">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.28" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="5512">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.28" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -421,14 +421,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/27"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="mBUS1_AN"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="mBUS1_AN"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.14/app/CPU_CTRL_XMC4/0"/>
     <properties key="APP_NAME_ID" value="CPU_CTRL_XMC4/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="181" height="40" x="5892" y="350">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="181" height="40" style="//@styles.0/@styles.0" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="158" height="40" x="5892" y="350">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="158" height="40" style="//@styles.0/@styles.0" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.1 //@connections.2 //@connections.13 //@connections.18 //@connections.21"/>
     <children>
@@ -441,14 +441,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.14/app/CPU_CTRL_XMC4/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="181" height="20" x="25" y="17" font="//@fonts.1" value="CPU_CTRL_XMC4_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="158" height="20" x="25" y="17" font="//@fonts.1" value="CPU_CTRL_XMC4_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.3.30/app/SPI_MASTER/0"/>
     <properties key="APP_NAME_ID" value="SPI_MASTER/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="156" height="40" x="2001">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="156" height="40" style="//@styles.0/@styles.41" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="135" height="40" x="2001">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="135" height="40" style="//@styles.0/@styles.41" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.12 //@connections.13"/>
     <children>
@@ -461,14 +461,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.3.30/app/SPI_MASTER/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="156" height="20" x="25" y="17" font="//@fonts.1" value="SPI_MASTER_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="135" height="20" x="25" y="17" font="//@fonts.1" value="SPI_MASTER_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/28"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/28"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="141" height="40" x="3746">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="141" height="40" style="//@styles.0/@styles.29" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="122" height="40" x="3746">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="122" height="40" style="//@styles.0/@styles.29" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -481,14 +481,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/28"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="141" height="20" x="25" y="17" font="//@fonts.1" value="DEBUG_PIN1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="122" height="20" x="25" y="17" font="//@fonts.1" value="DEBUG_PIN1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.1.14/app/GLOBAL_CCU4/1"/>
     <properties key="APP_NAME_ID" value="GLOBAL_CCU4/1"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="167" height="40" x="557" y="160">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="167" height="40" style="//@styles.0/@styles.42" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="148" height="40" x="557" y="160">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="148" height="40" style="//@styles.0/@styles.42" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.14" incomingConnections="//@connections.15"/>
     <children>
@@ -501,14 +501,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.1.14/app/GLOBAL_CCU4/1"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="167" height="20" x="25" y="17" font="//@fonts.1" value="GLOBAL_CCU4_1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="148" height="20" x="25" y="17" font="//@fonts.1" value="GLOBAL_CCU4_1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/12"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/12"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="5956">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.16" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="5956">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.16" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -521,14 +521,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/12"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="mBUS1_CS"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="mBUS1_CS"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.4/app/CAPTURE/0"/>
     <properties key="APP_NAME_ID" value="CAPTURE/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="235" height="40" x="1746">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="235" height="40" style="//@styles.0/@styles.43" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="197" height="40" x="1746">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="197" height="40" style="//@styles.0/@styles.43" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.15"/>
     <children>
@@ -541,14 +541,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.4/app/CAPTURE/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="235" height="20" x="25" y="17" font="//@fonts.1" value="CAPTURE_TLI4966G_SPEED"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="197" height="20" x="25" y="17" font="//@fonts.1" value="CAPTURE_TLI4966G_SPEED"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/29"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/29"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="141" height="40" x="3585">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="141" height="40" style="//@styles.0/@styles.30" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="122" height="40" x="3585">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="122" height="40" style="//@styles.0/@styles.30" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -561,14 +561,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/29"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="141" height="20" x="25" y="17" font="//@fonts.1" value="DEBUG_PIN2"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="122" height="20" x="25" y="17" font="//@fonts.1" value="DEBUG_PIN2"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.1.14/app/GLOBAL_CCU4/2"/>
     <properties key="APP_NAME_ID" value="GLOBAL_CCU4/2"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="167" height="40" x="1559">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="167" height="40" style="//@styles.0/@styles.44" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="148" height="40" x="1559">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="148" height="40" style="//@styles.0/@styles.44" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.16"/>
     <children>
@@ -581,14 +581,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.1.14/app/GLOBAL_CCU4/2"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="167" height="20" x="25" y="17" font="//@fonts.1" value="GLOBAL_CCU4_2"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="148" height="20" x="25" y="17" font="//@fonts.1" value="GLOBAL_CCU4_2"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/4"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/4"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="7286">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.8" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="7286">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.8" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -601,14 +601,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/4"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="LED_RED"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="LED_RED"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/13"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/13"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="5808">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.17" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="5808">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.17" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -621,14 +621,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/13"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="mBUS1_PWM"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="mBUS1_PWM"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/0"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="184" height="40" x="8046">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="184" height="40" style="//@styles.0/@styles.4" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="159" height="40" x="8046">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="159" height="40" style="//@styles.0/@styles.4" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -641,14 +641,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="184" height="20" x="25" y="17" font="//@fonts.1" value="MAIN_BOARD_LED1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="159" height="20" x="25" y="17" font="//@fonts.1" value="MAIN_BOARD_LED1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.6/app/I2S_CONFIG/0"/>
     <properties key="APP_NAME_ID" value="I2S_CONFIG/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="149" height="40" x="1390">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="149" height="40" style="//@styles.0/@styles.45" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="131" height="40" x="1390">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="131" height="40" style="//@styles.0/@styles.45" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.17"/>
     <children>
@@ -661,14 +661,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.6/app/I2S_CONFIG/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="149" height="20" x="25" y="17" font="//@fonts.1" value="I2S_CONFIG_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="131" height="20" x="25" y="17" font="//@fonts.1" value="I2S_CONFIG_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/14"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/14"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="5660">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.18" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="5660">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.18" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -681,14 +681,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/14"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="mBUS1_INT"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="mBUS1_INT"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/5"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/5"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="181" height="40" x="7085">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="181" height="40" style="//@styles.0/@styles.9" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="152" height="40" x="7085">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="152" height="40" style="//@styles.0/@styles.9" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -701,14 +701,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/5"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="181" height="20" x="25" y="17" font="//@fonts.1" value="SENSORS_POWER"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="152" height="20" x="25" y="17" font="//@fonts.1" value="SENSORS_POWER"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.10/app/INTERRUPT/0"/>
     <properties key="APP_NAME_ID" value="INTERRUPT/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="221" height="40" x="1149">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="221" height="40" style="//@styles.0/@styles.46" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="183" height="40" x="1149">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="183" height="40" style="//@styles.0/@styles.46" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.18"/>
     <children>
@@ -721,14 +721,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.10/app/INTERRUPT/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="221" height="20" x="25" y="17" font="//@fonts.1" value="I2S_RECEIVE_INTERRUPT"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="183" height="20" x="25" y="17" font="//@fonts.1" value="I2S_RECEIVE_INTERRUPT"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/15"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/15"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="5364">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.19" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="5364">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.19" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -741,14 +741,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/15"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="ISM_CS"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="ISM_CS"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/30"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/30"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="147" height="40" x="982">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="147" height="40" style="//@styles.0/@styles.47" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="131" height="40" x="982">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="131" height="40" style="//@styles.0/@styles.47" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -761,14 +761,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/30"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="147" height="20" x="25" y="17" font="//@fonts.1" value="I2S_DATA_MR"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="131" height="20" x="25" y="17" font="//@fonts.1" value="I2S_DATA_MR"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.1.26/app/I2C_MASTER/0"/>
     <properties key="APP_NAME_ID" value="I2C_MASTER/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="154" height="40" x="8250">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="154" height="40" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="135" height="40" x="8250">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="135" height="40" style="//@styles.0/@styles.2" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.0 //@connections.1"/>
     <children>
@@ -781,14 +781,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.1.26/app/I2C_MASTER/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="154" height="20" x="25" y="17" font="//@fonts.1" value="I2C_MASTER_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="135" height="20" x="25" y="17" font="//@fonts.1" value="I2C_MASTER_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/31"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/31"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="834">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.48" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="834">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.48" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -801,14 +801,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/31"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="I2S_SCK"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="I2S_SCK"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/6"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/6"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="158" height="40" x="6907">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="158" height="40" style="//@styles.0/@styles.10" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="136" height="40" x="6907">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="136" height="40" style="//@styles.0/@styles.10" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -821,14 +821,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/6"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="158" height="20" x="25" y="17" font="//@fonts.1" value="OPTIGA_RESET"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="136" height="20" x="25" y="17" font="//@fonts.1" value="OPTIGA_RESET"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/32"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/32"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="686">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.49" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="686">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.49" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -841,14 +841,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/32"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="I2S_LRCLK"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="I2S_LRCLK"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.22/app/GLOBAL_ADC/0"/>
     <properties key="APP_NAME_ID" value="GLOBAL_ADC/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="160" height="40" x="1249" y="160">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="160" height="40" style="//@styles.0/@styles.31" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="143" height="40" x="1249" y="160">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="143" height="40" style="//@styles.0/@styles.31" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.3" incomingConnections="//@connections.4 //@connections.5 //@connections.6 //@connections.7"/>
     <children>
@@ -861,14 +861,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.22/app/GLOBAL_ADC/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="160" height="20" x="25" y="17" font="//@fonts.1" value="GLOBAL_ADC_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="143" height="20" x="25" y="17" font="//@fonts.1" value="GLOBAL_ADC_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.12/app/ANALOG_IO/4"/>
     <properties key="APP_NAME_ID" value="ANALOG_IO/4"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="148" height="40" x="1" y="350">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="148" height="40" style="//@styles.0/@styles.50" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="133" height="40" x="1" y="350">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="133" height="40" style="//@styles.0/@styles.50" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" incomingConnections="//@connections.19"/>
     <children>
@@ -881,14 +881,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.12/app/ANALOG_IO/4"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="148" height="20" x="25" y="17" font="//@fonts.1" value="ANALOG_IO_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="133" height="20" x="25" y="17" font="//@fonts.1" value="ANALOG_IO_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/17"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/17"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="5216">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.20" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="5216">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.20" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -901,14 +901,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/17"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="ISM_RST"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="ISM_RST"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/33"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/33"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="163" height="40" x="503">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="163" height="40" style="//@styles.0/@styles.51" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="140" height="40" x="503">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="140" height="40" style="//@styles.0/@styles.51" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -921,14 +921,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/33"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="163" height="20" x="25" y="17" font="//@fonts.1" value="BOARD_POWER"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="140" height="20" x="25" y="17" font="//@fonts.1" value="BOARD_POWER"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.20/app/ADC_MEASUREMENT_ADV/0"/>
     <properties key="APP_NAME_ID" value="ADC_MEASUREMENT_ADV/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="243" height="40" x="3322">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="243" height="40" style="//@styles.0/@styles.32" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="205" height="40" x="3322">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="205" height="40" style="//@styles.0/@styles.32" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.4 //@connections.19"/>
     <children>
@@ -941,14 +941,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.20/app/ADC_MEASUREMENT_ADV/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="243" height="20" x="25" y="17" font="//@fonts.1" value="ADC_MEASUREMENT_ADV_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="205" height="20" x="25" y="17" font="//@fonts.1" value="ADC_MEASUREMENT_ADV_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/34"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/34"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="168" height="40" x="315">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="168" height="40" style="//@styles.0/@styles.52" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="144" height="40" x="315">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="144" height="40" style="//@styles.0/@styles.52" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -961,14 +961,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/34"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="168" height="20" x="25" y="17" font="//@fonts.1" value="MBUS_PWR_RST"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="144" height="20" x="25" y="17" font="//@fonts.1" value="MBUS_PWR_RST"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/1"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/1"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="184" height="40" x="7842">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="184" height="40" style="//@styles.0/@styles.5" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="159" height="40" x="7842">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="159" height="40" style="//@styles.0/@styles.5" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -981,14 +981,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/1"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="184" height="20" x="25" y="17" font="//@fonts.1" value="MAIN_BOARD_LED2"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="159" height="20" x="25" y="17" font="//@fonts.1" value="MAIN_BOARD_LED2"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.20/app/ADC_MEASUREMENT_ADV/1"/>
     <properties key="APP_NAME_ID" value="ADC_MEASUREMENT_ADV/1"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="243" height="40" x="3059">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="243" height="40" style="//@styles.0/@styles.33" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="205" height="40" x="3059">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="205" height="40" style="//@styles.0/@styles.33" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.5 //@connections.8"/>
     <children>
@@ -1001,14 +1001,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.20/app/ADC_MEASUREMENT_ADV/1"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="243" height="20" x="25" y="17" font="//@fonts.1" value="ADC_MEASUREMENT_ADV_1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="205" height="20" x="25" y="17" font="//@fonts.1" value="ADC_MEASUREMENT_ADV_1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/18"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/18"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="128" height="40" x="5068">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="128" height="40" style="//@styles.0/@styles.21" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="115" height="40" x="5068">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="115" height="40" style="//@styles.0/@styles.21" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -1021,14 +1021,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/18"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="128" height="20" x="25" y="17" font="//@fonts.1" value="I2C_INT1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="115" height="20" x="25" y="17" font="//@fonts.1" value="I2C_INT1"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.20/app/ADC_MEASUREMENT_ADV/2"/>
     <properties key="APP_NAME_ID" value="ADC_MEASUREMENT_ADV/2"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="243" height="40" x="2796">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="243" height="40" style="//@styles.0/@styles.34" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="205" height="40" x="2796">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="205" height="40" style="//@styles.0/@styles.34" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.6 //@connections.9"/>
     <children>
@@ -1041,14 +1041,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.20/app/ADC_MEASUREMENT_ADV/2"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="243" height="20" x="25" y="17" font="//@fonts.1" value="ADC_MEASUREMENT_ADV_2"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="205" height="20" x="25" y="17" font="//@fonts.1" value="ADC_MEASUREMENT_ADV_2"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.1.14/app/UART/0"/>
     <properties key="APP_NAME_ID" value="UART/0"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="108" height="40">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="108" height="40" style="//@styles.0/@styles.53" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="100" height="40">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="100" height="40" style="//@styles.0/@styles.53" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor" outgoingConnections="//@connections.20 //@connections.21"/>
     <children>
@@ -1061,14 +1061,14 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.1.14/app/UART/0"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="108" height="20" x="25" y="17" font="//@fonts.1" value="UART_0"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="100" height="20" x="25" y="17" font="//@fonts.1" value="UART_0"/>
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
     <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/7"/>
     <properties key="APP_NAME_ID" value="DIGITAL_IO/7"/>
-    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="140" height="40" x="6747">
-      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="140" height="40" style="//@styles.0/@styles.11" cornerHeight="5" cornerWidth="5"/>
+    <graphicsAlgorithm xsi:type="al:Rectangle" lineWidth="1" filled="false" lineVisible="false" transparency="0.0" width="124" height="40" x="6747">
+      <graphicsAlgorithmChildren xsi:type="al:RoundedRectangle" lineWidth="1" transparency="0.0" width="124" height="40" style="//@styles.0/@styles.11" cornerHeight="5" cornerWidth="5"/>
     </graphicsAlgorithm>
     <anchors xsi:type="pi:ChopboxAnchor"/>
     <children>
@@ -1081,7 +1081,7 @@
     </children>
     <children visible="true">
       <properties key="uri" value="http://resources/4.0.16/app/DIGITAL_IO/7"/>
-      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="140" height="20" x="25" y="17" font="//@fonts.1" value="DPS368_CS1"/>
+      <graphicsAlgorithm xsi:type="al:Text" lineWidth="1" filled="false" transparency="0.0" width="124" height="20" x="25" y="17" font="//@fonts.1" value="DPS368_CS1"/>
     </children>
   </children>
   <styles background="//@colors.1" lineWidth="2" lineVisible="true" transparency="0.0" id="COMMON-VALUES" horizontalAlignment="UNSPECIFIED" verticalAlignment="UNSPECIFIED">
